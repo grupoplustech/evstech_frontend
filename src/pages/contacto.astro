@@ -1,0 +1,239 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE } from "../data/site";
+---
+
+<Layout
+  title="Contacto y Cotizaciones | EVS Tech — Mayorista Lenovo Venezuela"
+  description="Contáctenos para cotizaciones de laptops, desktops y servidores Lenovo al mayor, o para afiliar su empresa como distribuidor autorizado en Venezuela."
+>
+  <!-- Header Banner -->
+  <section class="relative bg-slate-950 text-white py-16 lg:py-20 overflow-hidden border-b border-slate-800">
+    <div class="absolute inset-0 z-0 opacity-25">
+      <img
+        src="/images/img/banners/header_cont.jpg"
+        alt="Contacto EVS Tech"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-slate-950/80"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl space-y-4">
+        <span class="text-xs font-bold text-red-500 uppercase tracking-widest bg-red-950/60 border border-red-800/60 px-3 py-1 rounded-full">
+          Canal Directo de Atención
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
+          Contacto y Cotización B2B
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300">
+          Nuestro equipo comercial y de ingeniería está a su disposición para asesorarle en la selección del hardware adecuado y procesar sus órdenes de compra.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Grid -->
+  <section class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <!-- Direct Contact Cards -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 space-y-8 shadow-sm">
+            <div>
+              <h2 class="text-2xl font-black text-slate-900">Datos Corporativos</h2>
+              <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                Atención comercial a nivel nacional desde Caracas, Venezuela.
+              </p>
+            </div>
+
+            <!-- Phone -->
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-white border border-slate-200 p-2.5 flex items-center justify-center shrink-0 shadow-sm">
+                <img src="/images/img/contacto/icon_phone.jpg" alt="Teléfono" class="w-full h-full object-contain" />
+              </div>
+              <div class="space-y-1">
+                <span class="text-xs font-bold uppercase text-slate-400 tracking-wider">Teléfonos de Oficina</span>
+                <div class="flex flex-col text-sm sm:text-base font-bold text-slate-800">
+                  <a href={`tel:${SITE.phoneLink1}`} class="hover:text-red-600 transition-colors">0212-5240825</a>
+                  <a href={`tel:${SITE.phoneLink2}`} class="hover:text-red-600 transition-colors">0212-5240720</a>
+                </div>
+                <span class="text-[11px] text-slate-500 block">Lunes a Viernes de 8:00 AM a 5:00 PM</span>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-white border border-slate-200 p-2.5 flex items-center justify-center shrink-0 shadow-sm">
+                <img src="/images/img/contacto/icon_mail.jpg" alt="Correo Electrónico" class="w-full h-full object-contain" />
+              </div>
+              <div class="space-y-1">
+                <span class="text-xs font-bold uppercase text-slate-400 tracking-wider">Correo Electrónico</span>
+                <div class="text-sm sm:text-base font-bold text-slate-800">
+                  <a href={`mailto:${SITE.email}`} class="hover:text-red-600 transition-colors break-all">
+                    {SITE.email}
+                  </a>
+                </div>
+                <span class="text-[11px] text-slate-500 block">Cotizaciones y registro de distribuidores</span>
+              </div>
+            </div>
+
+            <!-- Ubicacion -->
+            <div class="pt-6 border-t border-slate-200/80 space-y-2">
+              <span class="text-xs font-bold uppercase text-slate-400 tracking-wider">Sede Operativa</span>
+              <p class="text-sm font-semibold text-slate-800">
+                Caracas, Venezuela
+              </p>
+              <p class="text-xs text-slate-500">
+                Despachos consolidados y envíos asegurados a las principales ciudades del país (Valencia, Maracay, Barquisimeto, Maracaibo, Lechería, Puerto Ordaz).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-white border border-slate-200 rounded-3xl p-8 sm:p-10 shadow-lg">
+            <h2 class="text-2xl font-black text-slate-900 mb-2">Formulario de Requerimiento</h2>
+            <p class="text-xs sm:text-sm text-slate-600 mb-8">
+              Complete los campos a continuación y nuestro departamento de ventas se comunicará a la brevedad.
+            </p>
+
+            <form id="contact-form" class="space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="name" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                    Nombre Completo *
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Ej. Carlos Mendoza"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
+                  <label for="company" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                    Empresa / Razón Social *
+                  </label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    required
+                    placeholder="Ej. Corporación TI C.A."
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="phone" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                    Teléfono de Contacto *
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="Ej. 0414-1234567"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
+                  <label for="email" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                    Correo Electrónico *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="nombre@empresa.com"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="interest" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                  Tipo de Solicitud *
+                </label>
+                <select
+                  id="interest"
+                  name="interest"
+                  class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all bg-white"
+                >
+                  <option value="Cotización de Laptops ThinkPad">Cotización de Laptops ThinkPad / V-Series</option>
+                  <option value="Cotización de Desktops ThinkCentre">Cotización de Desktops / Tiny ThinkCentre</option>
+                  <option value="Cotización de Servidores ThinkSystem">Dimensionamiento de Servidores ThinkSystem / Data Center</option>
+                  <option value="Afiliación como Distribuidor / Tienda">Afiliación a la Red de Distribuidores Aliados</option>
+                  <option value="Logística de Importación Directa">Logística de Importación / Pedido Especial</option>
+                  <option value="Soporte Técnico o Garantía Care Pack">Soporte Técnico / Trámite de Garantía</option>
+                  <option value="Otro Requerimiento">Otro Requerimiento</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" class="block text-xs font-bold uppercase text-slate-700 tracking-wider mb-2">
+                  Detalle del Requerimiento o Cantidades Estimadas *
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Especifique modelos de interés, cantidad de unidades, ciudad de entrega o requerimientos técnicos particulares..."
+                  class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full py-4 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-base shadow-lg shadow-red-600/30 transition-all flex items-center justify-center gap-2"
+              >
+                <span>Enviar Solicitud al Equipo Comercial</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const form = document.getElementById("contact-form") as HTMLFormElement;
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = (document.getElementById("name") as HTMLInputElement).value;
+      const company = (document.getElementById("company") as HTMLInputElement).value;
+      const phone = (document.getElementById("phone") as HTMLInputElement).value;
+      const email = (document.getElementById("email") as HTMLInputElement).value;
+      const interest = (document.getElementById("interest") as HTMLSelectElement).value;
+      const message = (document.getElementById("message") as HTMLTextAreaElement).value;
+
+      const subject = encodeURIComponent(`[Cotización EVS Tech] ${interest} - ${company}`);
+      const body = encodeURIComponent(
+        `Hola Equipo de Ventas EVS Tech,\n\n` +
+        `Solicito atención para el siguiente requerimiento:\n\n` +
+        `• Nombre: ${name}\n` +
+        `• Empresa / Razón Social: ${company}\n` +
+        `• Teléfono: ${phone}\n` +
+        `• Correo: ${email}\n` +
+        `• Tipo de Solicitud: ${interest}\n\n` +
+        `Detalle del Requerimiento:\n${message}\n\n` +
+        `--\nEnviado desde el portal corporativo evstech.com.ve`
+      );
+
+      window.location.href = `mailto:ventas@evstech.com.ve?subject=${subject}&body=${body}`;
+    });
+  }
+</script>

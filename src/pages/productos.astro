@@ -1,0 +1,253 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE, PRODUCT_LINES } from "../data/site";
+---
+
+<Layout
+  title="Catálogo de Productos | EVS Tech — Laptops, Desktops y Servidores Lenovo"
+  description="Líneas corporativas de computación Lenovo en Venezuela: portátiles ThinkPad, computadoras de escritorio ThinkCentre, estaciones de trabajo y servidores ThinkSystem para empresas."
+>
+  <!-- Header -->
+  <section class="bg-slate-950 text-white py-16 lg:py-20 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl space-y-4">
+        <span class="text-xs font-bold text-red-500 uppercase tracking-widest bg-red-950/60 border border-red-800/60 px-3 py-1 rounded-full">
+          Hardware Corporativo de Primera Línea
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white">
+          Catálogo Mayorista Lenovo
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300">
+          Equipos diseñados bajo los más altos estándares de resistencia, seguridad física y TPM 2.0, potencia de procesamiento y escalabilidad empresarial.
+        </p>
+      </div>
+
+      <!-- Quick category jumper -->
+      <div class="flex items-center gap-3 flex-wrap mt-8 pt-6 border-t border-slate-800">
+        <span class="text-xs text-slate-400 font-bold uppercase">Categorías:</span>
+        <a href="#laptops" class="px-3.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs font-bold text-slate-200 hover:border-red-500 transition-colors">
+          Portátiles ThinkPad & V-Series
+        </a>
+        <a href="#desktops" class="px-3.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs font-bold text-slate-200 hover:border-red-500 transition-colors">
+          Desktops & Tiny ThinkCentre
+        </a>
+        <a href="#datacenter" class="px-3.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs font-bold text-slate-200 hover:border-red-500 transition-colors">
+          Servidores & Storage ThinkSystem
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Category Sections -->
+  <div class="py-16 space-y-20 bg-slate-50">
+    <!-- SECTION 1: LAPTOPS -->
+    <section id="laptops" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-28">
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 lg:p-12 shadow-sm space-y-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 rounded-2xl overflow-hidden bg-slate-900 relative shadow-lg">
+            <img
+              src="/images/img/index/laptops.jpg"
+              alt="Laptops Lenovo ThinkPad"
+              class="w-full h-72 lg:h-80 object-cover"
+            />
+            <div class="absolute bottom-4 left-4 bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">
+              Laptops & Ultrabooks
+            </div>
+          </div>
+          <div class="lg:col-span-7 space-y-4">
+            <div class="text-xs font-bold text-red-600 uppercase tracking-widest">Movilidad y Productividad</div>
+            <h2 class="text-2xl sm:text-4xl font-black text-slate-900">
+              Línea Portátil ThinkPad e IdeaPad
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              Las portátiles Lenovo ThinkPad son el estándar de la industria global en durabilidad, contando con pruebas de especificación militar MIL-STD-810H contra golpes, caídas, humedad y derrames. Teclados ergonómicos reconocidos internacionalmente, pantallas antirreflejo y baterías de larga duración con carga rápida.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Intel Core Ultra & AMD Ryzen Pro</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Seguridad ThinkShield</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Chasis de Fibra de Carbono / Magnesio</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Certificación Militar MIL-SPEC</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Series Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-100">
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkPad Serie X / X1 Carbon</h3>
+            <p class="text-xs font-semibold text-red-600 uppercase">Gama Alta Ejecutiva</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              El equipo definitivo para la alta gerencia: peso inferior a 1.1 kg, pantalla 2.8K OLED, conectividad Wi-Fi 6E/5G y máxima elegancia corporativa.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkPad Serie T & L</h3>
+            <p class="text-xs font-semibold text-cyan-600 uppercase">El Estándar Corporativo</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Diseñadas para departamentos comerciales, finanzas y operaciones. Facilidad de expansión de memoria, múltiples puertos y máxima resistencia al uso diario.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">Lenovo Serie V & IdeaPad</h3>
+            <p class="text-xs font-semibold text-amber-600 uppercase">Pymes y Profesionales</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Relación costo-potencia óptima para dotación de personal operativo, atención comercial y tareas administrativas con garantía oficial.
+            </p>
+          </div>
+        </div>
+
+        <div class="pt-4 flex justify-end">
+          <a
+            href="/contacto"
+            class="px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-sm shadow-md transition-all inline-flex items-center gap-2"
+          >
+            <span>Cotizar Laptops al Mayor</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: DESKTOPS -->
+    <section id="desktops" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-28">
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 lg:p-12 shadow-sm space-y-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 rounded-2xl overflow-hidden bg-slate-900 relative shadow-lg">
+            <img
+              src="/images/img/index/desktops.jpg"
+              alt="Desktops Lenovo ThinkCentre"
+              class="w-full h-72 lg:h-80 object-cover"
+            />
+            <div class="absolute bottom-4 left-4 bg-cyan-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">
+              Estaciones de Trabajo & Desktops
+            </div>
+          </div>
+          <div class="lg:col-span-7 space-y-4">
+            <div class="text-xs font-bold text-cyan-600 uppercase tracking-widest">Estabilidad Continua</div>
+            <h2 class="text-2xl sm:text-4xl font-black text-slate-900">
+              Computadoras ThinkCentre & All-in-One
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              Las estaciones de escritorio ThinkCentre ofrecen fiabilidad incomparable y una gestión térmica superior que prolonga la vida útil de los componentes electrónicos. Disponibles en factores de forma compactos para optimizar el espacio en oficinas, cajas registradoras y call centers.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Formato Tiny de 1 Litro</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Torres Expandibles SFF</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Pantallas Todo en Uno Antirreflejo</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Gestión Remota Intel vPro</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Series Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-100">
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkCentre Tiny (M-Series)</h3>
+            <p class="text-xs font-semibold text-red-600 uppercase">Microcomputadoras Ultra Compactas</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Chasis de tan solo 1 litro que puede montarse tras un monitor o bajo el escritorio. Ahorra hasta 90% de espacio sin sacrificar potencia ni puertos.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkCentre All-in-One (AIO)</h3>
+            <p class="text-xs font-semibold text-cyan-600 uppercase">Diseño Integrado Elegante</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Computadora integrada en monitor IPS de bordes ultrafinos, cámara retráctil con obturador de privacidad y altavoces estéreo incorporados.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkCentre Tower & SFF</h3>
+            <p class="text-xs font-semibold text-amber-600 uppercase">Máxima Expansión de Hardware</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Ranuras PCIe para tarjetas de video dedicadas, fuentes de poder certificadas 80 Plus y capacidad para múltiples discos de almacenamiento.
+            </p>
+          </div>
+        </div>
+
+        <div class="pt-4 flex justify-end">
+          <a
+            href="/contacto"
+            class="px-6 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white font-bold text-sm shadow-md transition-all inline-flex items-center gap-2"
+          >
+            <span>Cotizar Desktops y Estaciones</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: DATA CENTER -->
+    <section id="datacenter" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-28">
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 lg:p-12 shadow-sm space-y-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 rounded-2xl overflow-hidden bg-slate-900 relative shadow-lg">
+            <img
+              src="/images/img/index/servidores.jpg"
+              alt="Servidores Lenovo ThinkSystem"
+              class="w-full h-72 lg:h-80 object-cover"
+            />
+            <div class="absolute bottom-4 left-4 bg-slate-900 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded border border-slate-700">
+              Data Center & Servidores
+            </div>
+          </div>
+          <div class="lg:col-span-7 space-y-4">
+            <div class="text-xs font-bold text-red-600 uppercase tracking-widest">Cómputo Empresarial Crítico</div>
+            <h2 class="text-2xl sm:text-4xl font-black text-slate-900">
+              Servidores ThinkSystem & Storage
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              Lenovo ostenta el puesto número 1 a nivel mundial en confiabilidad y satisfacción de clientes de servidores x86 durante 9 años consecutivos. Infraestructura preparada para virtualización intensiva, bases de datos SAP/Oracle, servidores de dominio y almacenamiento seguro.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Servidores Rack 1U / 2U</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Servidores de Torre Silenciosos</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Procesadores Intel Xeon Scalable / AMD EPYC</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold text-slate-700">Controladores RAID y Fuentes Redundantes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Series Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-100">
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkSystem SR630 & SR650 (Rack)</h3>
+            <p class="text-xs font-semibold text-red-600 uppercase">Centros de Datos y Virtualización</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Servidores de doble socket para racks de 19 pulgadas. Soportan memoria TruDDR4/DDR5 con corrección de errores (ECC) y bahías para discos NVMe Hot-Swap.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ThinkSystem ST250 & ST550 (Torre)</h3>
+            <p class="text-xs font-semibold text-cyan-600 uppercase">Sucursales y Oficinas Centrales</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Servidores de formato torre diseñados para operar de forma ultrasilenciosa en espacios de trabajo sin infraestructura de climatización dedicada.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/70 space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">Almacenamiento DE / DM Series</h3>
+            <p class="text-xs font-semibold text-amber-600 uppercase">Cabinas SAN & NAS Empresariales</p>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Arreglos de almacenamiento para respaldo corporativo continuo, tolerancia a fallas de discos y recuperación ante desastres (DRP).
+            </p>
+          </div>
+        </div>
+
+        <div class="pt-4 flex justify-end">
+          <a
+            href="/contacto"
+            class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm shadow-md transition-all inline-flex items-center gap-2"
+          >
+            <span>Dimensionar Servidores ThinkSystem</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

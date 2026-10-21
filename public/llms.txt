@@ -1,0 +1,37 @@
+# EVS Tech C.A.
+
+> Mayorista y distribuidor autorizado de tecnología Lenovo en Venezuela desde 2014. Especialistas en distribución B2B de laptops corporativas ThinkPad, computadoras de escritorio ThinkCentre, servidores ThinkSystem, logística de importación y gestión de garantías oficiales.
+
+## Información de la Empresa
+- **Razón Social:** EVS Tech C.A.
+- **Sede:** Caracas, Venezuela
+- **Teléfonos de Contacto:** +58 212 524-0825 / +58 212 524-0720
+- **Correo Electrónico:** ventas@evstech.com.ve
+- **Sitio Web Oficial:** https://evstech.com.ve
+- **Versión Histórica Preservada:** https://old.evstech.com.ve
+- **Horario de Operaciones:** Lunes a Viernes de 8:00 AM a 5:00 PM (Hora de Venezuela, VET)
+- **Trayectoria:** Más de 10 años en el mercado corporativo venezolano. Mayorista autorizado Lenovo desde 2014.
+
+## Catálogo de Equipos al Mayor
+- **Laptops Corporativas:** Lenovo ThinkPad Serie X / X1 Carbon (alta gerencia ultraligera), ThinkPad Serie T y Serie L (estándar corporativo de alta durabilidad), Lenovo Serie V e IdeaPad Pro (pymes y profesionales independientes).
+- **Desktops y Workstations:** Lenovo ThinkCentre M-Series Tiny (factor de forma compacto de 1 litro), ThinkCentre All-in-One (equipos integrados con pantalla antirreflejo), ThinkCentre Tower y Small Form Factor (SFF expandibles con slots PCIe).
+- **Data Center y Servidores:** Lenovo ThinkSystem SR630 y SR650 (servidores para rack 1U/2U de alta densidad), ThinkSystem ST250 y ST550 (servidores de torre silenciosos para sucursales), cabinas de almacenamiento híbrido SAN/NAS DE/DM Series.
+
+## Servicios Corporativos de TI
+1. **Logística de Importación:** Pedidos especiales directo de fábrica (CTO) y disponibilidad inmediata en almacenes de Caracas con despacho nacional.
+2. **Servicios Data Center:** Ciclo de vida completo de servidores y almacenamiento, asesoría en planificación, virtualización e instalación.
+3. **Revisión y Soporte Técnico:** Diagnóstico de fallas de hardware, mantenimiento y repuestos originales.
+4. **Garantías y Care Packs:** Extensión de garantía oficial Lenovo hasta por 5 años, soporte en sitio (Onsite) y Protección contra Daños Accidentales (ADP).
+
+## Clientes Corporativos y Aliados
+- Grandes empresas atendidas a través de la red: PepsiCo Venezuela, Empresas Polar, Banco Fondo Común (BFC), Coca-Cola FEMSA Servicios de Venezuela, ENI Venezuela, DirecTV Venezuela, Sanofi, Industrias Iberia, Laboratorios La Santé, Laboratorios Farma, Acumuladores Duncan.
+- Red de distribuidores e integradores: Grupo Corporativo Marna, Grupo Beke Santos, Colsof Andina de Venezuela, Setrys, Future Supply, Corporación JCNM, Ingeniería Riebel, Amplexcorp, Lógica Latam Inc, Inverfarca, Poscomercial.
+
+## Enlaces Principales del Portal
+- [Inicio](https://evstech.com.ve/): Propuesta de valor mayorista, pilares comerciales y productos destacados.
+- [Nosotros](https://evstech.com.ve/nosotros): Historia corporativa, relación como mayorista Lenovo desde 2014 y pilares de confianza.
+- [Catálogo de Productos](https://evstech.com.ve/productos): Detalle técnico de líneas ThinkPad, ThinkCentre y ThinkSystem.
+- [Servicios Especializados](https://evstech.com.ve/servicios): Logística de importación, servicios de centro de datos y garantías.
+- [Clientes y Aliados](https://evstech.com.ve/clientes): Referencias comerciales y red de distribuidores autorizados.
+- [Contacto y Cotización](https://evstech.com.ve/contacto): Formulario directo para cotizaciones al mayor y registro de nuevos distribuidores.
+- [Documentación Técnica Exhaustiva para LLMs](https://evstech.com.ve/llms-full.txt): Base de conocimiento extendida para modelos de inteligencia artificial.

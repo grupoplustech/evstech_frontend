@@ -1,0 +1,129 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE } from "../data/site";
+
+export interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title = `${SITE.name} | ${SITE.tagline}`,
+  description = SITE.description,
+  image = "/og-image.png",
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL(image, Astro.site);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE.url}/#organization`,
+      name: SITE.legalName,
+      alternateName: SITE.name,
+      url: SITE.url,
+      logo: `${SITE.url}/logo.jpg`,
+      image: `${SITE.url}/og-image.png`,
+      description: SITE.description,
+      email: SITE.email,
+      telephone: "+58-212-5240825",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: SITE.city,
+        addressCountry: "VE",
+      },
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+58-212-5240825",
+          contactType: "sales",
+          areaServed: "VE",
+          availableLanguage: ["es"],
+        },
+      ],
+    },
+    {
+      "@type": "WholesaleStore",
+      "@id": `${SITE.url}/#store`,
+      name: `${SITE.name} — Mayorista Lenovo Venezuela`,
+      url: SITE.url,
+      telephone: "+58-212-5240825",
+      email: SITE.email,
+      priceRange: "$$$",
+      image: `${SITE.url}/og-image.png`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: SITE.city,
+        addressCountry: "VE",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE.url}/#website`,
+      url: SITE.url,
+      name: SITE.name,
+      publisher: {
+        "@id": `${SITE.url}/#organization`,
+      },
+      inLanguage: "es",
+    },
+  ],
+};
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content="es_VE" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#E2231A" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body class="min-h-screen flex flex-col bg-slate-50 text-slate-800 font-['Plus_Jakarta_Sans',sans-serif] antialiased selection:bg-red-600 selection:text-white">
+    <Header />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

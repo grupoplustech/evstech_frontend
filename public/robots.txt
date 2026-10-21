@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /
+
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: Applebot
+User-Agent: GPTBot
+User-Agent: ClaudeBot
+User-Agent: PerplexityBot
+User-Agent: Google-Extended
+User-Agent: anthropic-ai
+Allow: /
+
+Host: https://evstech.com.ve
+Sitemap: https://evstech.com.ve/sitemap-index.xml

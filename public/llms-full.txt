@@ -1,0 +1,84 @@
+# EVS Tech C.A. — Documentación Integral de Negocio y Catálogo Corporativo
+
+## 1. Identidad de la Empresa y Alianzas
+EVS Tech C.A. es una empresa venezolana fundada hace más de una década en Caracas, especializada en la importación, comercialización mayorista y distribución de soluciones integrales en tecnología de la información (TI).
+Desde el año 2014, EVS Tech es mayorista oficial y canal directo de Lenovo en Venezuela, manteniendo un canal de comunicación directo con las plantas de producción de Lenovo a nivel mundial para procesar pedidos especiales, configuraciones a la medida (Configure to Order - CTO) y provisión de proyectos para el sector público y privado.
+
+- Sede: Caracas, Distrito Capital, Venezuela.
+- Teléfonos Master: +58 212 524-0825 / +58 212 524-0720
+- Correo Electrónico Comercial: ventas@evstech.com.ve
+- Dominio Principal: https://evstech.com.ve
+- Versión Histórica Preservada: https://old.evstech.com.ve
+
+---
+
+## 2. Portafolio de Hardware Lenovo
+
+### 2.1. Laptops y Computación Móvil
+- **Lenovo ThinkPad X1 Carbon:** Ultrabook insignia de la marca. Construida con chasis reforzado de fibra de carbono multicapa, peso menor a 1.1 kg, pantallas IPS y OLED de alta resolución, procesadores Intel Core Ultra con NPU dedicada para aceleración de inteligencia artificial, teclado resistente a salpicaduras con TrackPoint y TrackPad háptico, autonomía de hasta 18 horas y seguridad de autenticación biométrica ThinkShield con sensor de huellas y cámara IR con obturador ThinkShutter.
+- **Lenovo ThinkPad Serie T (T14 / T14s / T16):** La portátil corporativa por excelencia en el sector financiero y corporativo. Combina máxima durabilidad probada bajo 12 estándares de grado militar MIL-STD-810H y más de 200 pruebas de control de calidad. Memoria expandible hasta 64 GB DDR5, conectividad Wi-Fi 6E y puertos Ethernet RJ45 nativos.
+- **Lenovo ThinkPad Serie L (L13 / L14 / L15):** Diseñada para flotas corporativas que requieren productividad confiable, facilidad de servicio técnico y costo por puesto de trabajo balanceado.
+- **Lenovo Serie V e IdeaPad Pro:** Portátiles versátiles pensadas para comercios, sucursales y profesionales que requieren procesadores modernos Intel Core o AMD Ryzen, gráficos de alto rendimiento y diseño sobrio sin el sobrecosto de certificación militar completa.
+
+### 2.2. Computadoras de Escritorio y Estaciones de Trabajo
+- **Lenovo ThinkCentre M-Series Tiny (M70q, M80q, M90q):** Equipos de escritorio con un factor de forma ultra compacto de apenas 1 litro de volumen. Pueden montarse detrás de monitores compatibles ThinkVision mediante kits VESA o bajo el escritorio, optimizando el espacio físico en oficinas, mostradores y bancos. Compatibles con procesadores Intel Core de hasta 65W y conectividad multipantalla.
+- **Lenovo ThinkCentre All-in-One (Neo 30a, Neo 50a):** Solución todo en uno que integra la placa madre y procesador detrás de pantallas antirreflejo de 21.5, 23.8 o 27 pulgadas, reduciendo el desorden de cables en escritorios corporativos y áreas de recepción.
+- **Lenovo ThinkCentre Tower y Small Form Factor (SFF):** Equipos de escritorio tradicionales pensados para usuarios que requieren ranuras de expansión PCIe de media altura o altura completa para placas gráficas dedicadas, adaptadores de fibra óptica y múltiples unidades de disco de 3.5 pulgadas.
+- **Lenovo ThinkStation:** Workstations dedicadas para arquitectos, ingenieros civiles, diseño CAD/BIM y analistas de datos, certificadas por los principales proveedores de software independiente (ISV) como Autodesk, Adobe y SolidWorks.
+
+### 2.3. Data Center, Servidores e Infraestructura de Cómputo
+- **Lenovo ThinkSystem SR630 (Rack 1U):** Servidor de dos sockets de alta densidad para centros de datos, consolidación de servidores, computación en la nube privada y virtualización con VMware vSphere o Proxmox VE. Soporta procesadores escalables Intel Xeon o AMD EPYC, hasta 32 ranuras DIMM DDR4/DDR5 y fuentes de alimentación redundantes Platinum/Titanium.
+- **Lenovo ThinkSystem SR650 (Rack 2U):** Servidor versátil líder en la industria, optimizado para cargas de trabajo críticas como bases de datos relacionales empresariales (Microsoft SQL Server, Oracle), SAP HANA y analítica de big data, con soporte para hasta 40 unidades de disco SAS/SATA/NVMe de 2.5 pulgadas y tarjetas aceleradoras GPU.
+- **Lenovo ThinkSystem ST250 y ST550 (Torre):** Servidores en formato torre con operación ultrasilenciosa (menos de 30 dB), ideales para sucursales bancarias, farmacias, tiendas por departamento y centros logísticos que no cuentan con salas técnicas climatizadas.
+- **Sistemas de Almacenamiento Lenovo ThinkSystem DE y DM Series:** Cabinas de almacenamiento de bloques y archivos (SAN/NAS) con disponibilidad del 99.9999% (seis nueves), replicación síncrona/asíncrona y aceleración flash.
+
+---
+
+## 3. Servicios Especializados de Valor Agregado
+
+1. **Logística de Importación y Pedidos Especiales:**
+   - Tramitación directa de órdenes ante fábricas Lenovo globales (CTO - Configure-To-Order).
+   - Manejo de embarques marítimos y aéreos consolidados hacia puertos y aeropuertos venezolanos.
+   - Nacionalización y desaduanamiento legal de bienes informáticos conforme a la normativa aduanera venezolana.
+   - Entregas programadas puerta a puerta con seguro de carga nacional.
+
+2. **Servicios de Data Center y Consultoría:**
+   - Asesoría técnica en dimensionamiento de servidores y matrices de almacenamiento.
+   - Apoyo a integradores en la arquitectura de proyectos para licitaciones.
+   - Migración de datos y soporte en despliegue de ambientes virtualizados.
+
+3. **Revisión, Diagnóstico y Soporte Técnico:**
+   - Laboratorio técnico propio en Caracas para diagnóstico de fallas a nivel de componente.
+   - Mantenimiento térmico de servidores y estaciones de trabajo.
+   - Suministro de repuestos genuinos certificados por el fabricante (baterías, teclados, tarjetas de red, ventiladores, fuentes redundantes).
+
+4. **Garantías y Extensiones Care Pack:**
+   - Registro y activación de garantías oficiales Lenovo en el portal global de servicios.
+   - Extensiones de garantía hasta 5 años con cobertura Premier Support (atención técnica telefónica 24/7 con ingenieros de nivel 2).
+   - Cobertura de Daños Accidentales (Accidental Damage Protection - ADP) que cubre caídas involuntarias, derrames de líquidos y descargas eléctricas.
+
+---
+
+## 4. Red Comercial y Distribuidores Autorizados
+EVS Tech no compite en el mercado minorista, sino que abastece y respalda a una red nacional de distribuidores e integradores tecnológicos, entre los cuales destacan:
+- Grupo Corporativo Marna
+- Grupo Beke Santos
+- Colsof Andina de Venezuela
+- Setrys
+- Future Supply
+- Corporación JCNM
+- Ingeniería Riebel
+- Amplexcorp
+- Lógica Latam Inc
+- Inversiones Farías (Inverfarca)
+- Poscomercial
+
+A través de esta red, los equipos suministrados por EVS Tech brindan soporte a las operaciones cotidianas de empresas de renombre en Venezuela como PepsiCo, Empresas Polar, Banco Fondo Común (BFC), Coca-Cola FEMSA Servicios de Venezuela, ENI Venezuela, DirecTV, Sanofi, Industrias Iberia, Laboratorios La Santé, Laboratorios Farma y Acumuladores Duncan.
+
+---
+
+## 5. Contacto Comercial y Registro de Nuevos Distribuidores
+Las empresas interesadas en incorporarse a la red mayorista deben remitir su ficha comercial, Registro de Información Fiscal (RIF) y portafolio de clientes a:
+- Correo: ventas@evstech.com.ve
+- Teléfonos: +58 212 524-0825 / +58 212 524-0720
+- Portal web: https://evstech.com.ve/contacto

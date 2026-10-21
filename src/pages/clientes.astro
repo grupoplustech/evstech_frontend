@@ -1,0 +1,116 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE, CLIENTES_CORPORATIVOS, DISTRIBUIDORES } from "../data/site";
+---
+
+<Layout
+  title="Clientes y Red de Distribuidores | EVS Tech Venezuela"
+  description="Conozca las empresas corporativas que confían en el hardware provisto por EVS Tech y nuestra red nacional de distribuidores e integradores tecnológicos aliados."
+>
+  <!-- Header Banner -->
+  <section class="bg-slate-950 text-white py-16 lg:py-20 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl space-y-4">
+        <span class="text-xs font-bold text-red-500 uppercase tracking-widest bg-red-950/60 border border-red-800/60 px-3 py-1 rounded-full">
+          Confianza Corporativa y Alianzas
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white">
+          Clientes y Red de Distribuidores
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300">
+          A través de una sólida red de integradores y canales certificados, abastecemos a las industrias y corporaciones más exigentes de Venezuela.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Grandes Empresas Atendidas -->
+  <section class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
+          Empresas que Operan con Nuestro Hardware
+        </h2>
+        <p class="text-sm text-slate-600 mt-2">
+          Líderes en manufactura, banca, alimentos, energía y telecomunicaciones equipados con tecnología Lenovo suministrada por EVS Tech y sus canales.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {
+          CLIENTES_CORPORATIVOS.map((cliente) => (
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-red-400 hover:shadow-lg transition-all group">
+              <div class="w-10 h-10 rounded-xl bg-white border border-slate-200 text-red-600 font-black flex items-center justify-center text-sm mb-4 shadow-sm group-hover:bg-red-600 group-hover:text-white transition-colors">
+                TI
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-red-600 transition-colors">
+                {cliente.name}
+              </h3>
+              <p class="text-xs font-semibold text-slate-500 mt-1 uppercase tracking-wider">
+                {cliente.category}
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-200/60 flex items-center gap-1.5 text-xs text-slate-400">
+                <span class="text-emerald-500 font-bold">●</span>
+                <span>Infraestructura Lenovo</span>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Red de Distribuidores Aliados -->
+  <section class="py-16 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
+          Nuestra Red de Distribuidores e Integradores
+        </h2>
+        <p class="text-sm text-slate-600 mt-2">
+          Aliados comerciales que llevan la tecnología a cada rincón de Venezuela con respaldo y soporte técnico de primer nivel.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        {
+          DISTRIBUIDORES.map((dist) => (
+            <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+              <span class="text-[10px] font-bold text-red-600 uppercase tracking-widest bg-red-50 px-2 py-0.5 rounded">
+                Canal Aliado
+              </span>
+              <h3 class="text-base font-bold text-slate-900 mt-2">{dist.name}</h3>
+              <p class="text-xs text-slate-500 mt-0.5">{dist.type}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: B2B Partner CTA -->
+  <section class="py-16 bg-slate-950 text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <h2 class="text-2xl sm:text-4xl font-black">
+        ¿Desea formar parte de nuestra red de distribuidores?
+      </h2>
+      <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        Afíliese a EVS Tech y obtenga acceso inmediato a listas de precios preferenciales al mayor, boletines técnicos periódicos, protección de cuentas y tramitación de casos especiales.
+      </p>
+      <div class="pt-4 flex flex-wrap justify-center gap-4">
+        <a
+          href="/contacto"
+          class="px-8 py-3.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-sm shadow-xl transition-all"
+        >
+          Inscribir mi Empresa
+        </a>
+        <a
+          href={`mailto:${SITE.email}`}
+          class="px-8 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-bold text-sm transition-all"
+        >
+          Enviar Documentación por Correo
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
