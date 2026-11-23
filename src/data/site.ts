@@ -6,10 +6,9 @@ export interface NavLink {
 export const SITE = {
   name: "EVS Tech",
   legalName: "EVS Tech C.A.",
-  tagline: "Mayorista y Distribuidor de Tecnología Lenovo en Venezuela",
-  description: "Mayorista autorizado Lenovo en Venezuela desde 2014. Especialistas en distribución de laptops corporativas ThinkPad, desktops ThinkCentre, servidores ThinkSystem, logística de importación y soporte técnico oficial.",
+  tagline: "Mayorista Autorizado Lenovo (ISG) y Soluciones Corporativas en Venezuela",
+  description: "Mayorista autorizado Lenovo (ISG - Infrastructure Solutions Group) en Venezuela desde 2014. Especialistas en arquitectura de servidores ThinkSystem, almacenamiento y centros de datos. Suministro y comercialización corporativa de laptops ThinkPad y desktops ThinkCentre con respaldo técnico oficial.",
   url: "https://evstech.com.ve",
-  historicalUrl: "https://old.evstech.com.ve",
   phoneDisplay: "0212-5240825 / 0212-5240720",
   phoneLink1: "+582125240825",
   phoneLink2: "+582125240720",
@@ -44,17 +43,16 @@ export const CLIENTES_CORPORATIVOS = [
 ];
 
 export const DISTRIBUIDORES = [
-  { name: "Grupo Corporativo Marna", type: "Integrador Corporativo" },
-  { name: "Grupo Beke Santos", type: "Soluciones TI" },
-  { name: "Colsof Andina de Venezuela", type: "Infraestructura Tecnológica" },
-  { name: "Setrys", type: "Distribución de Equipos" },
-  { name: "Future Supply", type: "Cadena de Suministro TI" },
-  { name: "Corporación JCNM", type: "Servicios y Consultoría" },
-  { name: "Ingeniería Riebel", type: "Ingeniería y Soporte" },
-  { name: "Amplexcorp", type: "Sistemas y Hardware" },
-  { name: "Lógica Latam Inc", type: "Integración Regional" },
-  { name: "Inverfarca (Inversiones Farías)", type: "Distribución Mayorista" },
-  { name: "Poscomercial", type: "Puntos de Venta y TI" },
+  { name: "Corporación Comtec, C.A.", type: "Infraestructura y Soluciones TI" },
+  { name: "Cisponet, C.A.", type: "Conectividad y Redes Corporativas" },
+  { name: "Grupo Corporativo Marna, S.A.", type: "Integrador Corporativo" },
+  { name: "Disofi, C.A.", type: "Soluciones de Oficina y TI" },
+  { name: "Total IT Latam Inc", type: "Integración Regional y Data Center" },
+  { name: "ESS Solutions, C.A.", type: "Servicios y Soporte TI" },
+  { name: "Inversiones Corporativo Rouse, C.A.", type: "Suministro Corporativo" },
+  { name: "Grupo Core ITech 2023, C.A.", type: "Infraestructura y Servicios TI" },
+  { name: "Setrys, C.A.", type: "Distribución de Equipos" },
+  { name: "Microbyte Technology, C.A.", type: "Hardware y Soluciones Tecnológicas" },
 ];
 
 export const SERVICES = [
@@ -114,16 +112,16 @@ export const SERVICES = [
 
 export const PRODUCT_LINES = [
   {
-    id: "laptops",
-    title: "Laptops & Portátiles Corporativas",
-    brand: "Lenovo ThinkPad / IdeaPad / V-Series",
-    img: "/images/img/index/laptops.jpg",
-    tagline: "Rendimiento, durabilidad militar y seguridad empresarial",
-    description: "Líneas de portátiles diseñadas para el trabajo exigente, ejecutivos móviles y equipos de alto rendimiento. Equipadas con procesadores Intel Core y AMD Ryzen de última generación, chasis reforzados y certificación militar MIL-STD-810H.",
+    id: "datacenter",
+    title: "Data Center, Servidores & Racks",
+    brand: "Lenovo ThinkSystem (Mayorista ISG)",
+    img: "/images/img/index/servidores.jpg",
+    tagline: "Arquitectura número uno en confiabilidad x86 a nivel mundial",
+    description: "Servidores diseñados para cargas de trabajo críticas: virtualización, bases de datos SQL/Oracle, almacenamiento de archivos corporativos y servicios en la nube privada.",
     series: [
-      { name: "ThinkPad Serie X / X1 Carbon", desc: "Ultrabooks premium ultraligeras de fibra de carbono para ejecutivos de alta movilidad." },
-      { name: "ThinkPad Serie T / L", desc: "El caballo de batalla corporativo: máxima durabilidad, conectividad y facilidad de administración TI." },
-      { name: "Lenovo Serie V / IdeaPad Pro", desc: "Excelente balance entre costo y potencia para pymes, comercios y profesionales independientes." },
+      { name: "ThinkSystem Rack Servers (1U / 2U)", desc: "Máxima densidad de cómputo para centros de datos empresariales e infraestructuras virtuales." },
+      { name: "ThinkSystem Tower Servers", desc: "Servidores de torre ultrasilenciosos para sucursales, bancos y oficinas sin cuarto de servidores dedicado." },
+      { name: "Almacenamiento & Redes", desc: "Soluciones de almacenamiento híbrido, switches Top-of-Rack y tarjetas de fibra canal." },
     ]
   },
   {
@@ -140,16 +138,16 @@ export const PRODUCT_LINES = [
     ]
   },
   {
-    id: "datacenter",
-    title: "Data Center, Servidores & Racks",
-    brand: "Lenovo ThinkSystem",
-    img: "/images/img/index/servidores.jpg",
-    tagline: "Arquitectura número uno en confiabilidad x86 a nivel mundial",
-    description: "Servidores diseñados para cargas de trabajo críticas: virtualización, bases de datos SQL/Oracle, almacenamiento de archivos corporativos y servicios en la nube privada.",
+    id: "laptops",
+    title: "Laptops & Portátiles Corporativas",
+    brand: "Lenovo ThinkPad / IdeaPad / V-Series",
+    img: "/images/img/index/laptops.jpg",
+    tagline: "Rendimiento, durabilidad militar y seguridad empresarial",
+    description: "Líneas de portátiles diseñadas para el trabajo exigente, ejecutivos móviles y equipos de alto rendimiento. Equipadas con procesadores Intel Core y AMD Ryzen de última generación, chasis reforzados y certificación militar MIL-STD-810H.",
     series: [
-      { name: "ThinkSystem Rack Servers (1U / 2U)", desc: "Máxima densidad de cómputo para centros de datos empresariales e infraestructuras virtuales." },
-      { name: "ThinkSystem Tower Servers", desc: "Servidores de torre ultrasilenciosos para sucursales, bancos y oficinas sin cuarto de servidores dedicado." },
-      { name: "Almacenamiento & Redes", desc: "Soluciones de almacenamiento híbrido, switches Top-of-Rack y tarjetas de fibra canal." },
+      { name: "ThinkPad Serie X / X1 Carbon", desc: "Ultrabooks premium ultraligeras de fibra de carbono para ejecutivos de alta movilidad." },
+      { name: "ThinkPad Serie T / L", desc: "El caballo de batalla corporativo: máxima durabilidad, conectividad y facilidad de administración TI." },
+      { name: "Lenovo Serie V / IdeaPad Pro", desc: "Excelente balance entre costo y potencia para pymes, comercios y profesionales independientes." },
     ]
-  }
+  },
 ];
